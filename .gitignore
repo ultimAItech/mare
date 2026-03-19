@@ -1,5 +1,5 @@
 # build output
-dist/
+# dist/ (Removed to allow committing static build)
 # generated types
 .astro/
 
