@@ -1,0 +1,101 @@
+---
+interface Props {
+  lang: string;
+  currentPath?: string;
+}
+
+const { lang, currentPath = '' } = Astro.props;
+
+const nav = [
+  { href: `/${lang}/`, labelKey: 'home' },
+  { href: `/${lang}/about`, labelKey: 'about' },
+  { href: `/${lang}/services`, labelKey: 'services' },
+  { href: `/${lang}/contact`, labelKey: 'contact' },
+];
+
+const t = await import(`../i18n/${lang}.json`).then(m => m.default);
+const otherLang = lang === 'de' ? 'en' : 'de';
+// Preserve current page when switching language (e.g. /de/about -> /en/about)
+const pathSuffix = currentPath.replace(new RegExp(`^/${lang}/?`), '').replace(/^\//, '') || '';
+const langSwitchHref = pathSuffix ? `/${otherLang}/${pathSuffix}` : `/${otherLang}/`;
+
+const headerBgClass = 'bg-transparent border-transparent';
+const textClass = 'text-white';
+const textAltClass = 'text-white/90';
+---
+
+<header id="main-header" class={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b ${headerBgClass}`}>
+  <nav class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+    <a href={`/${lang}/`} id="nav-logo" class={`font-heading text-xl font-semibold hover:text-teal transition-colors ${textClass}`}>
+      MareSphere
+    </a>
+    <div class="flex items-center gap-8">
+      <ul class="hidden md:flex items-center gap-6">
+        {nav.map((item) => (
+          <li>
+            <a href={item.href} class={`nav-link font-medium hover:text-teal transition-colors ${textAltClass}`}>
+              {t.nav[item.labelKey]}
+            </a>
+          </li>
+        ))}
+      </ul>
+      <a href={langSwitchHref} class={`nav-link hidden md:inline text-sm font-medium hover:text-teal transition-colors uppercase tracking-wider ${textAltClass}`}>
+        {otherLang === 'de' ? 'DE' : 'EN'}
+      </a>
+      <button type="button" id="menu-toggle" class={`md:hidden p-2 hover:text-teal transition-colors ${textClass}`} aria-label="Menu">
+        <svg id="nav-icon" class={`w-6 h-6 transition-colors ${textClass}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+  <div id="mobile-menu" class="md:hidden hidden bg-cream border-t border-navy/5 px-6 py-4">
+    <ul class="space-y-4">
+      {nav.map((item) => (
+        <li>
+          <a href={item.href} class="block text-navy/80 hover:text-teal font-medium py-2">
+            {t.nav[item.labelKey]}
+          </a>
+        </li>
+      ))}
+      <li>
+        <a href={langSwitchHref} class="block text-navy/70 hover:text-teal font-medium py-2 uppercase tracking-wider">
+          {otherLang === 'de' ? 'DE' : 'EN'}
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+<script>
+  document.getElementById('menu-toggle')?.addEventListener('click', () => {
+    const menu = document.getElementById('mobile-menu');
+    menu?.classList.toggle('hidden');
+  });
+
+  const header = document.getElementById('main-header');
+  const navLogo = document.getElementById('nav-logo');
+  const navLinks = document.querySelectorAll('.nav-link');
+  const navIcon = document.getElementById('nav-icon');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+      header?.classList.add('bg-white', 'backdrop-blur-md', 'border-navy/5', 'shadow-sm');
+      header?.classList.remove('bg-transparent', 'border-transparent');
+      
+      navLogo?.classList.replace('text-white', 'text-navy');
+      navIcon?.classList.replace('text-white', 'text-navy');
+      navLinks.forEach(link => {
+        link.classList.replace('text-white/90', 'text-navy/80');
+      });
+    } else {
+      header?.classList.add('bg-transparent', 'border-transparent');
+      header?.classList.remove('bg-white', 'backdrop-blur-md', 'border-navy/5', 'shadow-sm');
+      
+      navLogo?.classList.replace('text-navy', 'text-white');
+      navIcon?.classList.replace('text-navy', 'text-white');
+      navLinks.forEach(link => {
+        link.classList.replace('text-navy/80', 'text-white/90');
+      });
+    }
+  });
+</script>

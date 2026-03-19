@@ -1,0 +1,71 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Button from '../../components/Button.astro';
+import Card from '../../components/Card.astro';
+
+export function getStaticPaths() {
+  return [{ params: { lang: 'de' } }, { params: { lang: 'en' } }];
+}
+
+const { lang } = Astro.params;
+const t = await import(`../../i18n/${lang}.json`).then(m => m.default);
+---
+
+<BaseLayout title={t.about.title} description={t.about.partnerText} lang={lang}>
+  <div>
+    <section class="relative min-h-[50vh] flex flex-col justify-center overflow-hidden">
+      <!-- Background Image -->
+      <div class="absolute inset-0 w-full h-full z-0">
+        <img 
+          src="/assets/images/global_shipping_network.png" 
+          alt="MareSphere Background" 
+          class="absolute inset-0 w-full h-full object-cover"
+        />
+        <!-- Dark overlay to ensure text readability -->
+        <div class="absolute inset-0 bg-navy/60 bg-gradient-to-b from-navy/20 to-cream/20"></div>
+      </div>
+      <div class="relative z-10 max-w-6xl mx-auto px-6 pt-20">
+        <h1 class="font-heading text-4xl md:text-5xl font-bold text-white mb-4 drop-shadow-lg">{t.about.title}</h1>
+        <p class="font-heading text-xl text-teal-light drop-shadow-md">{t.about.subtitle}</p>
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-6 py-16">
+      <h2 class="font-heading text-3xl font-bold text-navy mb-6">{t.about.partnerTitle}</h2>
+      <p class="text-lg text-navy/80 max-w-3xl mb-12">{t.about.partnerText}</p>
+
+      <div class="flex flex-col md:flex-row gap-12 items-start mb-16">
+        <div class="flex-shrink-0 w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white shadow-lg flex items-center justify-center">
+          <img src="/assets/images/maritime_consulting_office.png" alt="Maritime Consulting" class="w-full h-full object-cover" loading="lazy" />
+        </div>
+        <div>
+          <h3 class="font-heading text-2xl font-semibold text-navy mb-2">{t.about.founderName}</h3>
+          <p class="text-teal font-medium mb-4">{t.about.founderRole}</p>
+          <p class="text-navy/80 mb-4">{t.about.bio1}</p>
+          <p class="text-navy/80 mb-4">{t.about.bio2}</p>
+          <p class="text-navy/80 italic">{t.about.philosophy}</p>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8 mb-16">
+        <Card>
+          <h4 class="font-heading text-xl font-semibold text-navy mb-3">{t.about.value1Title}</h4>
+          <p class="text-navy/80">{t.about.value1Text}</p>
+        </Card>
+        <Card>
+          <h4 class="font-heading text-xl font-semibold text-navy mb-3">{t.about.value2Title}</h4>
+          <p class="text-navy/80">{t.about.value2Text}</p>
+        </Card>
+        <Card>
+          <h4 class="font-heading text-xl font-semibold text-navy mb-3">{t.about.value3Title}</h4>
+          <p class="text-navy/80">{t.about.value3Text}</p>
+        </Card>
+      </div>
+
+      <div class="text-center bg-teal/10 py-12 rounded-xl">
+        <p class="text-lg text-navy/80 mb-6">{t.about.ctaText}</p>
+        <Button href={`/${lang}/contact`}>{t.about.contactCta}</Button>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

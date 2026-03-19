@@ -1,0 +1,240 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "services": "Dienstleistungen",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "title": "MareSphere",
+    "tagline": "Shipping Connects",
+    "heroSubtitle": "Umfassende maritime Beratungsdienstleistungen mit einem ganzheitlichen Ansatz für Schiffsbetrieb, Sicherheit und nachhaltige Praktiken.",
+    "partnerTitle": "Ihr Partner für maritime Exzellenz",
+    "partnerText": "MareSphere steht für verlässliche, unabhängige und ganzheitliche Beratung in der Schifffahrt. Wir verbinden technisches Know-how mit operativem Verständnis, um Ihre Flotte sicher und effizient auf Kurs zu halten. \"Shipping Connects\" ist nicht nur unser Slogan, sondern unser Versprechen: Wir bringen die richtigen Menschen, Teile und Lösungen zusammen.",
+    "value1Title": "Erfahren & Kompetent",
+    "value1Text": "Jahrelange Expertise im nautischen und technischen Schiffsmanagement.",
+    "value2Title": "Global Vernetzt",
+    "value2Text": "Zugang zu einem weltweiten Netzwerk spezialisierter maritime Partner.",
+    "value3Title": "Effizient & Transparent",
+    "value3Text": "Optimierte Prozesse und klare Kommunikation für Ihren Erfolg.",
+    "expertiseTitle": "Unsere Expertise",
+    "expertiseSubtitle": "Maßgeschneiderte Lösungen für Ihre maritimen Herausforderungen",
+    "service1Title": "Technische Koordination",
+    "service1Text": "Überwachung von Werftaufenthalten, Reparaturen und technischen Projekten.",
+    "service2Title": "Notfallmanagement",
+    "service2Text": "24/7 Unterstützung in kritischen Situationen und bei technischen Ausfällen.",
+    "service3Title": "Ersatzteilbeschaffung",
+    "service3Text": "Schnelle Identifikation und zuverlässige Beschaffung schwer erhältlicher Teile.",
+    "allServices": "Alle Dienstleistungen ansehen",
+    "quote": "Wir helfen dabei, dass das richtige Teil und die richtigen Menschen zur richtigen Zeit zusammenkommen – damit Ihr Schiff in Bewegung bleibt.",
+    "ctaTitle": "Bereit für den nächsten Schritt?",
+    "ctaText": "Kontaktieren Sie uns für eine unverbindliche Beratung und erfahren Sie, wie wir Ihren Schiffsbetrieb optimieren können.",
+    "contactCta": "Kontakt aufnehmen",
+    "learnMore": "Mehr erfahren"
+  },
+  "about": {
+    "title": "Über mich",
+    "subtitle": "Professionelle Maritime Kompetenz",
+    "partnerTitle": "Ihr Partner in der maritimen Branche",
+    "partnerText": "MareSphere verbindet fundiertes Fachwissen mit praktischer Erfahrung, um Ihnen maßgeschneiderte Lösungen für Ihre maritimen Herausforderungen zu bieten.",
+    "founderName": "Finn Burchard",
+    "founderRole": "Gründer & Maritimer Berater",
+    "bio1": "Mit über einem Jahrzehnt Erfahrung in der maritimen Industrie hat Finn Burchard ein tiefgreifendes Verständnis für die komplexen Anforderungen des modernen Schiffsbetriebs entwickelt. Seine Karriere begann an Bord verschiedener Schiffstypen, bevor er in leitende Positionen im technischen Management und der Betriebskoordination wechselte.",
+    "bio2": "Heute vereint MareSphere diese praxisnahe Expertise mit einem strukturierten, kundenorientierten Ansatz. Ob bei der Koordination von Werftaufenthalten, der Beschaffung kritischer Ersatzteile oder der Begleitung durch Inspektionen und Audits – der Fokus liegt stets auf klaren Prozessen, transparenter Kommunikation und nachhaltigen Ergebnissen.",
+    "philosophy": "Die Philosophie hinter MareSphere: Maritime Dienstleistungen sollten verbinden, nicht verkomplizieren. \"Shipping Connects\" bedeutet, dass Reedereien, Zulieferer, Behörden und Crews reibungslos zusammenarbeiten können – mit einem verlässlichen Partner an ihrer Seite.",
+    "value1Title": "Verlässlichkeit",
+    "value1Text": "Verbindliche Zusagen und termingerechte Umsetzung – darauf können Sie sich verlassen.",
+    "value2Title": "Transparenz",
+    "value2Text": "Klare Kommunikation und nachvollziehbare Prozesse ohne versteckte Überraschungen.",
+    "value3Title": "Partnerschaft",
+    "value3Text": "Langfristige Zusammenarbeit auf Augenhöhe – Ihr Erfolg ist unser gemeinsames Ziel.",
+    "ctaText": "Überzeugen Sie sich selbst von unserer Expertise.",
+    "contactCta": "Kontakt aufnehmen"
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Umfassende maritime Lösungen",
+    "service1Title": "Nautisch-Technische Koordination",
+    "service1Text": "Effiziente Prozesse, klare Schnittstellen und technische Sicherheit für Ihre Flotte.",
+    "service2Title": "Maritime Notfallkoordination",
+    "service2Text": "Wenn es ernst wird, braucht es Struktur und einen klaren Ansprechpartner.",
+    "service3Title": "Spezialisierte Ersatzteilbeschaffung",
+    "service3Text": "Wenn das richtige Teil zur richtigen Zeit am richtigen Ort sein muss.",
+    "service4Title": "Maritime Services (Brokerage)",
+    "service4Text": "Verlässliche Partner, klar koordiniert – für jeden Bedarf den passenden Dienstleister.",
+    "service5Title": "Dokumentations- & Zertifikatsmanagement",
+    "service5Text": "Damit Ihre Schiffsdokumente immer \"auf Kurs\" bleiben.",
+    "service6Title": "Individualisiertes Bereederungs- & Projektmanagement",
+    "service6Text": "Persönliche Betreuung und maßgeschneiderte Lösungen für Ihre Schiffe.",
+    "learnMore": "Mehr erfahren",
+    "ctaTitle": "Bereit loszulegen?",
+    "ctaText": "Kontaktieren Sie uns noch heute, um Ihre maritimen Beratungsbedürfnisse zu besprechen und zu entdecken, wie unsere spezialisierten Dienstleistungen Ihren Betrieb unterstützen können.",
+    "contactCta": "Kontaktieren Sie uns",
+    "backHome": "Zurück zur Startseite"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Nehmen Sie Kontakt für maritime Lösungen auf",
+    "contactPerson": "Ansprechpartner",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "address": "Adresse",
+    "hours": "Öffnungszeiten",
+    "hoursValue": "Montag - Freitag 8:00 - 18:00 Uhr MEZ",
+    "formName": "Name",
+    "formEmail": "E-Mail",
+    "formService": "Interesse an Dienstleistung",
+    "formServicePlaceholder": "Wählen Sie eine Dienstleistung",
+    "formMessage": "Nachricht",
+    "formSubmit": "Nachricht senden",
+    "formTitle": "Kontaktformular",
+    "services": {
+      "tech": "Nautisch-Technische Koordination",
+      "emergency": "Maritimes Notfallmanagement",
+      "parts": "Ersatzteilbeschaffung & Vermittlung",
+      "docs": "Dokumentations- & Zertifikatsmanagement",
+      "management": "Individuelles Schiffsmanagement",
+      "modules": "Zusätzliche Service-Module"
+    }
+  },
+  "footer": {
+    "tagline": "Shipping Connects.",
+    "nav": "Navigation",
+    "services": "Dienstleistungen",
+    "legal": "Rechtliches",
+    "agb": "Allgemeine Geschäftsbedingungen",
+    "copyright": "© 2025 MareSphere. Alle Rechte vorbehalten."
+  },
+  "agb": {
+    "title": "Allgemeine Geschäftsbedingungen",
+    "placeholder": "Inhalt folgt in Kürze."
+  },
+  "serviceDetails": {
+    "nautisch-technische-koordination": {
+      "title": "Nautisch-Technische Koordination",
+      "subtitle": "Effiziente Prozesse, klare Schnittstellen und technische Sicherheit.",
+      "intro": "Als Schnittstelle zwischen Reederei, Crew, technischen Dienstleistern und Behörden sorgt MareSphere dafür, dass nautisch-technische Abläufe strukturiert und erfolgreich umgesetzt werden.",
+      "features": [
+        {
+          "title": "Vorbereitung & Begleitung von Inspektionen:",
+          "description": "Strukturierte Planung und Vorab-Checks für Klassifikations-, Flaggenstaats- oder Kundeninspektionen (z.B. IMCA, OVID)."
+        },
+        {
+          "title": "Werft- & Reparaturkoordination:",
+          "description": "Unterstützung bei der Planung, Abstimmung und Überwachung von Werftaufenthalten, Umbauten oder Reparaturprojekten – vor Ort oder remote."
+        },
+        {
+          "title": "Technische Kommunikation:",
+          "description": "Klärung technischer Fragen zwischen Schiff und Land sowie Schnittstellenmanagement zu externen Firmen."
+        }
+      ],
+      "conclusion": "Ihr Vorteil: Sie gewinnen Zeit, behalten den Überblick und erhalten einen verlässlichen Ansprechpartner, der maritime Prozesse verständlich macht und Ihr Tagesgeschäft entlastet – egal, ob es um Einzelprojekte oder fortlaufende Betreuung geht.",
+      "image": "/assets/images/hr_nautical_coordination.png"
+    },
+    "maritime-notfallkoordination": {
+      "title": "Maritime Notfallkoordination",
+      "subtitle": "Wenn es ernst wird, braucht es Struktur und einen klaren Ansprechpartner.",
+      "intro": "Im Notfall zählt jede Minute – und gleichzeitig braucht es Ruhe, Übersicht und saubere Koordination. MareSphere unterstützt kleine und mittelständische Reeder sowie Einzelschiffseigner dabei, in kritischen Situationen handlungsfähig zu bleiben und die richtigen Schritte in sinnvoller Reihenfolge einzuleiten.",
+      "features": [
+        {
+          "title": "Zentraler Ansprechpartner im Ernstfall:",
+          "description": "Sie haben eine feste Anlaufstelle, die Vorgänge sortiert, Informationen bündelt und hilft, die passenden Dienstleister, Behörden und Partner einzubeziehen."
+        },
+        {
+          "title": "Koordination von Maßnahmen:",
+          "description": "Unterstützung bei der Organisation und Abstimmung von technischen Einsätzen, Werftkontakten, Gutachtern oder sonstigen Dienstleistern – mit Fokus darauf, Abläufe nachvollziehbar und dokumentierbar zu halten."
+        },
+        {
+          "title": "Dokumentation und Nachbereitung:",
+          "description": "Begleitende Unterstützung bei der Zusammenstellung der wesentlichen Informationen und Unterlagen, etwa für Versicherung, interne Auswertung oder spätere Prüfungen."
+        }
+      ],
+      "conclusion": "MareSphere ersetzt keinen Havariekommandanten und keine spezialisierte Behörde, schafft jedoch Struktur, Entlastung und Übersicht – gerade dort, wo interne Ressourcen begrenzt sind oder Routine in Krisensituationen fehlt.\n\nShipping connects. Auch im Notfall sorgt MareSphere dafür, dass die richtigen Informationen und Beteiligten zusammenfinden – damit Sie nicht allein vor komplexen Entscheidungen stehen.",
+      "image": "/assets/images/maritime_emergency_coordination.png"
+    },
+    "ersatzteilbeschaffung": {
+      "title": "Spezialisierte Ersatzteilbeschaffung & Einlaufmanagement",
+      "subtitle": "Wenn das richtige Teil zur richtigen Zeit am richtigen Ort sein muss.",
+      "intro": "Stillliegezeiten kosten Geld – besonders dann, wenn ein Schiff auf ein spezielles Bauteil oder technisches Equipment wartet. MareSphere unterstützt Sie dabei, kritische Ersatzteile schnell, zielgerichtet und mit Blick auf Qualität und Verlässlichkeit zu beschaffen und den Einlauf so zu organisieren, dass der operative Betrieb möglichst wenig beeinträchtigt wird.",
+      "features": [
+        {
+          "title": "Spezialisierte Ersatzteilsuche:",
+          "description": "Unterstützung bei der Identifikation und Auswahl passender Komponenten, insbesondere bei schwer verfügbaren oder obsoleten Teilen."
+        },
+        {
+          "title": "Koordination von Angebot und Bestellung:",
+          "description": "Unterstützung bei der Einholung, Bewertung und Auswahl von Angeboten sowie bei der Abstimmung mit Lieferanten und Dienstleistern."
+        },
+        {
+          "title": "Einlaufbezogene Abstimmung:",
+          "description": "Begleitende Organisation rund um den Hafeneinlauf im Zusammenhang mit der Teilelieferung, z. B. Abstimmung mit Technikern, Werft oder Servicepartnern vor Ort."
+        },
+        {
+          "title": "Nachverfolgung und Dokumentation:",
+          "description": "Transparente Kommunikation zum Status, Unterstützung bei Rückfragen und geordnetes Ablegen der relevanten Unterlagen für spätere Nachweise."
+        }
+      ],
+      "conclusion": "Ihr Vorteil: Sie erhalten eine unabhängige, praxisnahe Unterstützung, die Ihre technischen Anforderungen versteht und die Kommunikation zwischen Reederei, Lieferanten und Dienstleistern strukturiert.\n\nShipping connects. Wir helfen dabei, dass das richtige Teil und die richtigen Menschen zur richtigen Zeit zusammenkommen – damit Ihr Schiff in Bewegung bleibt.",
+      "image": "/assets/images/spare_parts_procurement.png"
+    },
+    "maritime-services": {
+      "title": "Maritime Services (Brokerage)",
+      "subtitle": "Verlässliche Partner, klar koordiniert.",
+      "intro": "Nicht jede Reederei oder jeder Schiffseigner hat für jeden Fall den passenden Dienstleister „an der Hand“. Genau hier setzt MareSphere an: Als neutraler, erfahrener Partner unterstützt MareSphere dabei, spezialisierte maritime Services, Charterschiffe oder Schlepper bedarfsgerecht zu finden, anzusprechen und strukturiert einzubinden.",
+      "features": [
+        {
+          "title": "Vermittlung spezialisierter Dienstleister:",
+          "description": "Unterstützung bei der Auswahl und Kontaktaufnahme zu passenden Unternehmen, etwa für technische Einsätze, Sonderreinigungen, Inspektionen, Bergungs- oder Unterstützungsleistungen."
+        },
+        {
+          "title": "Charter- und Schleppunterstützung:",
+          "description": "Unterstützung bei der Suche nach geeigneten Charterschiffen oder Schleppern für konkrete Einsätze, inklusive Abstimmung der Rahmenbedingungen und Koordination der Kommunikation."
+        },
+        {
+          "title": "Koordination und Nachverfolgung:",
+          "description": "Strukturierte Begleitung vom Erstkontakt bis zur Durchführung, inklusive Terminabstimmung, Informationsfluss und sinnvoller Dokumentation der vereinbarten Leistungen."
+        }
+      ],
+      "conclusion": "MareSphere tritt dabei nicht als Großanbieter auf, sondern als unabhängiger Koordinator mit maritimer Praxiserfahrung und gutem Zugang zu verschiedenen Akteuren im Markt.\n\nShipping connects. MareSphere hilft, die passenden Partner zusammenzubringen, damit Ihre Projekte zur See und im Hafen verlässlich umgesetzt werden.",
+      "image": "/assets/images/maritime_services_brokerage.png"
+    },
+    "bereederungsmanagement": {
+      "title": "Individualisiertes Bereederungs- & Projektmanagement",
+      "subtitle": "Persönliche Betreuung und maßgeschneiderte Lösungen für Ihre Schiffe.",
+      "intro": "Nicht jede Reederei oder Schiffseigner verfügt über ein eigenes Backoffice oder erfahrenes Projektpersonal für die Vielzahl an technischen, organisatorischen und administrativen Aufgaben im Betriebsalltag. MareSphere bietet Ihnen als unabhängiger Dienstleistungspartner flexible Unterstützung exakt dort, wo Sie sie benötigen.",
+      "features": [
+        {
+          "title": "Bereederungsmanagement nach Maß:",
+          "description": "Von Vertragswesen über Versicherungsfragen bis zum technischen Einkauf– wir begleiten Sie proaktiv und übernehmen auf Wunsch die Koordination mit z.B. Behörden, Klassifikationsgesellschaften, Partnern uvm."
+        },
+        {
+          "title": "Projektsteuerung und Umsetzung:",
+          "description": "Ob Modernisierung, Umbau oder nautisch/technische Sonderprojekte – MareSphere hilft Ihnen maßgeschneidert bei der Planung, dem Zeitmanagement und bei Schnittstellen zu externen Dienstleistern oder Lieferanten und unterstützt bei einer wirtschaftlichen und konformen Umsetzung."
+        },
+        {
+          "title": "Anpassungsfähig & lösungsorientiert:",
+          "description": "Sie erhalten maßgeschneiderte Betreuung, zugeschnitten auf Größe und Bedarf Ihrer Flotte – egal ob regelmäßige Unterstützung, punktuelle Projektbegleitung oder Überbrückung bei Personalausfall."
+        }
+      ],
+      "conclusion": "Ihr klarer Mehrwert: Sie behalten den Fokus auf den Schiffsbetrieb, reduzieren interne Ressourcenbindung und gewinnen einen fachlich versierten, persönlich erreichbaren Partner für alle bereederungsspezifischen und nautisch- / technischen Herausforderungen.",
+      "image": "/assets/images/generic_service_hero.png"
+    },
+    "dokumentations-zertifikatsmanagement": {
+      "title": "Dokumentations- & Zertifikatsmanagement",
+      "subtitle": "Damit Ihre Schiffsdokumente stets auf Kurs bleiben.",
+      "intro": "Eine lückenlose und fehlerfreie Dokumentation ist unerlässlich für einen reibungslosen Schiffsbetrieb. Wir übernehmen für Sie das komplette Zertifikatsmanagement. Dabei legen wir Wert auf digitale, zugängliche Workflows.",
+      "features": [
+        {
+          "title": "Zertifikatsüberwachung:",
+          "description": "Wir behalten Ihre Fristen im Blick und informieren Sie rechtzeitig über anstehende Überprüfungen oder Erneuerungen von Schiffszertifikaten."
+        },
+        {
+          "title": "Behördenkommunikation:",
+          "description": "Geradlinige Abstimmung mit Flaggenstaaten, Behörden und Klassifikationsgesellschaften für reibungslose Zulassungsprozesse."
+        }
+      ],
+      "conclusion": "MareSphere sorgt dafür, dass Sie administrative Fallstricke souverän meistern und sich voll und ganz auf das operative Geschäft konzentrieren können.",
+      "image": "/assets/images/docs_cert_realistic.png"
+    }
+  }
+}

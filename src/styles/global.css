@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  /* MareSphere premium color palette */
+  --color-navy: #0a1628;
+  --color-navy-light: #0f2744;
+  --color-teal: #0d9488;
+  --color-teal-light: #14b8a6;
+  --color-cream: #fafaf9;
+  --color-gold: #d4a574;
+  --color-gold-light: #e8c9a8;
+
+  /* Typography - Playfair Display + DM Sans */
+  --font-heading: "Playfair Display", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream text-navy antialiased;
+    font-family: var(--font-body);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}

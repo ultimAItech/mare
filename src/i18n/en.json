@@ -1,0 +1,240 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "MareSphere",
+    "tagline": "Shipping Connects",
+    "heroSubtitle": "Comprehensive maritime consulting services with a holistic approach to ship operations, safety and sustainable practices.",
+    "partnerTitle": "Your Partner for Maritime Excellence",
+    "partnerText": "MareSphere stands for reliable, independent and holistic consulting in shipping. We combine technical expertise with operational understanding to keep your fleet safe and efficient on course. \"Shipping Connects\" is not just our slogan, but our promise: We bring the right people, parts and solutions together.",
+    "value1Title": "Experienced & Competent",
+    "value1Text": "Years of expertise in nautical and technical ship management.",
+    "value2Title": "Globally Connected",
+    "value2Text": "Access to a worldwide network of specialized maritime partners.",
+    "value3Title": "Efficient & Transparent",
+    "value3Text": "Optimized processes and clear communication for your success.",
+    "expertiseTitle": "Our Expertise",
+    "expertiseSubtitle": "Tailored solutions for your maritime challenges",
+    "service1Title": "Technical Coordination",
+    "service1Text": "Supervision of yard stays, repairs and technical projects.",
+    "service2Title": "Emergency Management",
+    "service2Text": "24/7 support in critical situations and technical failures.",
+    "service3Title": "Spare Parts Procurement",
+    "service3Text": "Rapid identification and reliable procurement of hard-to-find parts.",
+    "allServices": "View all services",
+    "quote": "We help ensure the right part and the right people come together at the right time – so your ship stays in motion.",
+    "ctaTitle": "Ready for the next step?",
+    "ctaText": "Contact us for a non-binding consultation and learn how we can optimize your ship operations.",
+    "contactCta": "Get in touch",
+    "learnMore": "Learn more"
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Professional Maritime Competence",
+    "partnerTitle": "Your Partner in the Maritime Industry",
+    "partnerText": "MareSphere combines solid expertise with practical experience to offer you tailored solutions for your maritime challenges.",
+    "founderName": "Finn Burchard",
+    "founderRole": "Founder & Maritime Consultant",
+    "bio1": "With over a decade of experience in the maritime industry, Finn Burchard has developed a deep understanding of the complex requirements of modern ship operations. His career began on board various ship types before moving into leadership positions in technical management and operations coordination.",
+    "bio2": "Today, MareSphere unites this hands-on expertise with a structured, customer-oriented approach. Whether coordinating yard stays, procuring critical spare parts or guiding through inspections and audits – the focus is always on clear processes, transparent communication and sustainable results.",
+    "philosophy": "The philosophy behind MareSphere: Maritime services should connect, not complicate. \"Shipping Connects\" means that shipping companies, suppliers, authorities and crews can work together seamlessly – with a reliable partner at their side.",
+    "value1Title": "Reliability",
+    "value1Text": "Binding commitments and timely implementation – you can count on it.",
+    "value2Title": "Transparency",
+    "value2Text": "Clear communication and traceable processes without hidden surprises.",
+    "value3Title": "Partnership",
+    "value3Text": "Long-term collaboration on equal footing – your success is our shared goal.",
+    "ctaText": "See our expertise for yourself.",
+    "contactCta": "Get in touch"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive maritime solutions",
+    "service1Title": "Nautical-Technical Coordination",
+    "service1Text": "Efficient processes, clear interfaces and technical safety for your fleet.",
+    "service2Title": "Maritime Emergency Coordination",
+    "service2Text": "When it gets serious, you need structure and a clear point of contact.",
+    "service3Title": "Specialized Spare Parts Procurement",
+    "service3Text": "When the right part needs to be in the right place at the right time.",
+    "service4Title": "Maritime Services (Brokerage)",
+    "service4Text": "Reliable partners, clearly coordinated – the right service provider for every need.",
+    "service5Title": "Documentation & Certificate Management",
+    "service5Text": "So your ship documents always stay \"on course\".",
+    "service6Title": "Individual Ship Management & Project Management",
+    "service6Text": "Personal support and tailored solutions for your ships.",
+    "learnMore": "Learn more",
+    "ctaTitle": "Ready to get started?",
+    "ctaText": "Contact us today to discuss your maritime consulting needs and discover how our specialized services can support your operations.",
+    "contactCta": "Contact us",
+    "backHome": "Back to home"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch for maritime solutions",
+    "contactPerson": "Contact Person",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "hours": "Business Hours",
+    "hoursValue": "Monday - Friday 8:00 AM - 6:00 PM CET",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formService": "Service of interest",
+    "formServicePlaceholder": "Select a service",
+    "formMessage": "Message",
+    "formSubmit": "Send message",
+    "formTitle": "Contact Form",
+    "services": {
+      "tech": "Nautical-Technical Coordination",
+      "emergency": "Maritime Emergency Management",
+      "parts": "Spare Parts Procurement & Brokerage",
+      "docs": "Documentation & Certificate Management",
+      "management": "Individual Ship Management",
+      "modules": "Additional Service Modules"
+    }
+  },
+  "footer": {
+    "tagline": "Shipping Connects.",
+    "nav": "Navigation",
+    "services": "Services",
+    "legal": "Legal",
+    "agb": "Terms and Conditions",
+    "copyright": "© 2025 MareSphere. All rights reserved."
+  },
+  "agb": {
+    "title": "Terms and Conditions",
+    "placeholder": "Content coming soon."
+  },
+  "serviceDetails": {
+    "nautisch-technische-koordination": {
+      "title": "Nautical-Technical Coordination",
+      "subtitle": "Efficient processes, clear interfaces, and technical safety.",
+      "intro": "As the interface between shipping company, crew, technical service providers, and authorities, MareSphere ensures that nautical-technical processes are structured and successfully implemented.",
+      "features": [
+        {
+          "title": "Preparation & Support for Inspections:",
+          "description": "Structured planning and pre-checks for classification, flag state, or customer inspections (e.g., IMCA, OVID)."
+        },
+        {
+          "title": "Shipyard & Repair Coordination:",
+          "description": "Support in planning, coordinating, and monitoring shipyard stays, conversions, or repair projects – on-site or remotely."
+        },
+        {
+          "title": "Technical Communication:",
+          "description": "Clarification of technical questions between ship and shore, as well as interface management with external companies."
+        }
+      ],
+      "conclusion": "Your advantage: You save time, maintain an overview, and gain a reliable partner who makes maritime processes understandable and relieves your daily business operations – whether for individual projects or ongoing support.",
+      "image": "/assets/images/hr_nautical_coordination.png"
+    },
+    "maritime-notfallkoordination": {
+      "title": "Maritime Emergency Coordination",
+      "subtitle": "When things get serious, structure and a clear contact person are essential.",
+      "intro": "In an emergency, every minute counts – and at the same time, calm, overview, and clean coordination are needed. MareSphere supports small and medium-sized shipowners as well as individual ship owners in remaining capable of acting in critical situations and initiating the right steps in a sensible sequence.",
+      "features": [
+        {
+          "title": "Central Contact in an Emergency:",
+          "description": "You have a fixed contact point that sorts procedures, bundles information, and helps involve the right service providers, authorities, and partners."
+        },
+        {
+          "title": "Coordination of Measures:",
+          "description": "Support in organizing and coordinating technical interventions, shipyard contacts, surveyors, or other service providers – with a focus on keeping processes traceable and documentable."
+        },
+        {
+          "title": "Documentation and Follow-up:",
+          "description": "Accompanying support in compiling essential information and documents, e.g., for insurance, internal evaluation, or subsequent audits."
+        }
+      ],
+      "conclusion": "MareSphere does not replace an average adjuster or specialized authority but provides structure, relief, and an overview – especially where internal resources are limited or routine in crisis situations is lacking.\n\nShipping connects. Even in emergencies, MareSphere ensures that the right information and parties come together – so you don't face complex decisions alone.",
+      "image": "/assets/images/maritime_emergency_coordination.png"
+    },
+    "ersatzteilbeschaffung": {
+      "title": "Specialized Spare Parts Procurement & Port Management",
+      "subtitle": "When the right part needs to be at the right place at the right time.",
+      "intro": "Downtimes cost money – especially when a ship is waiting for a specific component or technical equipment. MareSphere supports you in procuring critical spare parts quickly, targetedly, and with an eye on quality and reliability, and organizes the port call so that operational business is minimally affected.",
+      "features": [
+        {
+          "title": "Specialized Spare Parts Search:",
+          "description": "Support in identifying and selecting suitable components, especially for hard-to-find or obsolete parts."
+        },
+        {
+          "title": "Coordination of Offers and Ordering:",
+          "description": "Support in obtaining, evaluating, and selecting offers, as well as in coordination with suppliers and service providers."
+        },
+        {
+          "title": "Port-related Coordination:",
+          "description": "Accompanying organization around the port call in connection with part delivery, e.g., coordination with technicians, shipyard, or local service partners."
+        },
+        {
+          "title": "Tracking and Documentation:",
+          "description": "Transparent communication on status, support with inquiries, and orderly filing of relevant documents for later verification."
+        }
+      ],
+      "conclusion": "Your advantage: You receive independent, practical support that understands your technical requirements and structures communication between shipping company, suppliers, and service providers.\n\nShipping connects. We help ensure the right part and the right people come together at the right time – so your ship stays in motion.",
+      "image": "/assets/images/spare_parts_procurement.png"
+    },
+    "maritime-services": {
+      "title": "Maritime Services (Brokerage)",
+      "subtitle": "Reliable partners, clearly coordinated.",
+      "intro": "Not every shipping company or ship owner has the right service provider \"on hand\" for every case. This is exactly where MareSphere comes in: As a neutral, experienced partner, MareSphere supports in finding, addressing, and structurally integrating specialized maritime services, charter ships, or tugs as needed.",
+      "features": [
+        {
+          "title": "Mediation of Specialized Service Providers:",
+          "description": "Support in selecting and contacting suitable companies, e.g., for technical operations, special cleaning, inspections, salvage, or support services."
+        },
+        {
+          "title": "Charter and Towing Support:",
+          "description": "Support in finding suitable charter ships or tugs for specific operations, including coordination of general conditions and communication."
+        },
+        {
+          "title": "Coordination and Tracking:",
+          "description": "Structured support from initial contact to implementation, including scheduling, information flow, and meaningful documentation of agreed services."
+        }
+      ],
+      "conclusion": "MareSphere does not act as a major provider, but as an independent coordinator with practical maritime experience and excellent access to various actors in the market.\n\nShipping connects. MareSphere helps bring the right partners together so that your projects at sea and in port are reliably implemented.",
+      "image": "/assets/images/maritime_services_brokerage.png"
+    },
+    "bereederungsmanagement": {
+      "title": "Individualized Ship Management & Project Management",
+      "subtitle": "Personal support and customized solutions for your ships.",
+      "intro": "Not every shipping company or ship owner has their own back office or experienced project personnel for the multitude of technical, organizational, and administrative tasks in daily operations. As an independent service partner, MareSphere offers flexible support exactly where you need it.",
+      "features": [
+        {
+          "title": "Tailor-made Ship Management:",
+          "description": "From contract matters to insurance questions to technical purchasing – we proactively support you and, upon request, take over coordination with authorities, classification societies, partners, etc."
+        },
+        {
+          "title": "Project Control and Implementation:",
+          "description": "Whether modernization, conversion, or nautical/technical special projects – MareSphere assists you with tailor-made planning, time management, and interfaces with external service providers or suppliers, ensuring economical and compliant implementation."
+        },
+        {
+          "title": "Adaptable & Solution-oriented:",
+          "description": "You receive customized care tailored to the size and needs of your fleet – whether it's regular support, occasional project assistance, or bridging a personnel shortage."
+        }
+      ],
+      "conclusion": "Your clear added value: You maintain focus on ship operations, reduce internal resource binding, and gain a technically versed, personally accessible partner for all management-specific and nautical/technical challenges.",
+      "image": "/assets/images/generic_service_hero.png"
+    },
+    "dokumentations-zertifikatsmanagement": {
+      "title": "Documentation & Certificate Management",
+      "subtitle": "So your ship documents always stay on course.",
+      "intro": "Seamless and error-free documentation is essential for smooth ship operations. We handle comprehensive certificate management for you. We value digital, accessible workflows.",
+      "features": [
+        {
+          "title": "Certificate Monitoring:",
+          "description": "We keep an eye on your deadlines and inform you in a timely manner about upcoming renewals of ship certificates."
+        },
+        {
+          "title": "Authority Communication:",
+          "description": "Straightforward coordination with flag states, authorities, and classification societies."
+        }
+      ],
+      "conclusion": "MareSphere ensures that you master administrative pitfalls confidently and can focus entirely on operational business.",
+      "image": "/assets/images/docs_cert_realistic.png"
+    }
+  }
+}
