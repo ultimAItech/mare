@@ -1,41 +1,45 @@
-# MareSphere
+# MareSphere — static website
 
-Premium maritime consulting website. Shipping Connects.
+Plain **HTML + CSS** only (no build, no JavaScript). Each screen is its **own `.html` file**, linked with **relative** URLs.
 
-## Tech Stack
+## Entry
 
-- **Astro 6** - Static site generator
-- **Tailwind CSS v4** - Styling
-- **Bilingual** - German (DE) and English (EN)
+- **`index.html`** (root) → redirects to **`de/`** (`de/index.html`)
 
-## Development
+## Pages (mirror under `de/` and `en/`)
+
+| File | Role |
+|------|------|
+| `index.html` | Home |
+| `about.html` | About |
+| `services.html` | All services |
+| `service-nautisch-technische-koordination.html` | Service detail |
+| `service-maritime-notfallkoordination.html` | Service detail |
+| `service-ersatzteilbeschaffung.html` | Service detail |
+| `service-maritime-services.html` | Service detail |
+| `service-dokumentations-zertifikatsmanagement.html` | Service detail |
+| `service-bereederungsmanagement.html` | Service detail |
+| `contact.html` | Contact + form |
+| `agb.html` | Legal placeholder |
+| `sitemap.html` | List of all pages (both languages) |
+
+## Also in the repo
+
+- **`css/styles.css`** — styles  
+- **`assets/`** — images  
+- **`favicon.svg`**, **`robots.txt`**
+
+## Navigation
+
+- Header and footer on every page link to the main sections.  
+- Footer **Dienstleistungen / Services** lists all six service detail pages.  
+- Service detail pages include **← Back to services**.  
+- **Übersicht / Site map** in the nav and **`sitemap.html`** link every HTML file.
+
+## Preview
 
 ```bash
-npm install
-npm run dev
+python3 -m http.server 8080
 ```
 
-Visit `http://localhost:4321` — root redirects to `/de/`.
-
-## Build
-
-```bash
-npm run build
-```
-
-Output in `dist/`. Deploy to any static host (Netlify, Vercel, GitHub Pages).
-
-## Deployment
-
-Update `site` in `astro.config.mjs` for your domain before building:
-
-```js
-site: 'https://your-domain.com',
-```
-
-## Structure
-
-- `/de/` - German (default)
-- `/en/` - English
-- `/de/about`, `/de/services`, `/de/contact`, `/de/agb`
-- `/en/about`, etc.
+Open `http://localhost:8080/` → you land on the German home page.
